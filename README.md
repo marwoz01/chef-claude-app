@@ -9,7 +9,7 @@ Aplikacja pozwala wpisać listę składników, po czym wysyła je do **Claude AP
 
 ## Podgląd aplikacji
 
-![Widok przepisu](./chef-claude/screenshots/recipe.png)
+![Widok przepisu](src/screenshots/recipe.png)
 
 ---
 
