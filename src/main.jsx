@@ -16,7 +16,6 @@ export default function Main() {
     const newIngredient = formData.get("ingredient");
     setIngredients((prevIngredients) => [...prevIngredients, newIngredient]);
   }
-
   return (
     <main>
       <form action={addIngredient} className="add-ingredient-form">
