@@ -1,16 +1,39 @@
-# React + Vite
+# Chef Claude 🍳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live demo:** [Kliknij tutaj, aby zobaczyć](https://marwoz01.github.io/chef-claude/)
 
-Currently, two official plugins are available:
+Aplikacja pozwala wpisać listę składników, po czym wysyła je do **Claude API** i generuje propozycję **przepisu** do przygotowania z podanych produktów.  
+**Projekt działa w wersji demo – klucz API jest ukryty.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Podgląd aplikacji
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+![Widok przepisu](./chef-claude/screenshots/recipe.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Funkcje
+
+- Dodawanie składników do listy
+- Wysyłanie składników do Claude API
+- Generowanie i wyświetlanie przepisu
+- Prosty i responsywny interfejs
+
+---
+
+## Technologie
+
+- **React** + Vite
+- CSS
+- Claude API (Anthropic)
+
+---
+
+## Co przećwiczyłem w projekcie
+
+1. Event listeners
+2. State
+3. Conditional rendering
+4. Forms
+5. State management strategies
